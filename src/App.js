@@ -48,7 +48,7 @@ function App() {
                     <input name="email" type="email" value={email} onChange={handleChange}/>
                 </label>
                 <label>
-                    message:
+                    Message:
                     <input name="message" type="text" value={message} onChange={handleChange}/>
                 </label>
                 <button type="submit" disabled={isFormDisabled}>Submit</button>
