@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# React Redux Form Application
+Welcome to the React Redux Form Application! This application is built using React, Redux for state management, and the validator library for input validation. It provides a user-friendly interface for capturing user information and messages through a form, showcasing how to manage and validate user inputs in a React-based environment.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Application Description
+The React Redux Form Application serves as a practical example of creating interactive forms with advanced features using modern web development technologies. This application demonstrates the integration of React with Redux, showcasing how to maintain a global state for efficient data management across components. Users are presented with a user-friendly form featuring input fields for their first name, last name, email, and message. The form incorporates real-time validation, ensuring that users are promptly notified of any input errors. The application leverages the validator library to validate email formats and message length, guaranteeing accurate data submission.
 
-## Available Scripts
+Upon successful form submission, the user's input is displayed below the form, providing immediate feedback and promoting a seamless user experience. The application design and functionality not only offer a practical use case for building interactive forms but also highlight the significance of data validation and centralized state management in delivering robust and reliable web applications. Whether you're an aspiring developer exploring React and Redux or an experienced developer seeking insights into form handling, this application offers valuable insights into best practices and techniques.
 
-In the project directory, you can run:
+## Installation and Local Setup
+To run the React Redux Form Application locally on your machine, follow these steps:
 
-### `npm start`
+1. Clone the repository to your local machine using the following command:
+```shell
+git clone https://github.com/AndriiKachkarov/use-case-8.git
+```
+2. Navigate to the project directory:
+```shell
+cd use-case-8
+```
+3. Install the project dependencies using npm:
+```shell
+npm install
+```
+4. After the installation is complete, start the development server:
+```shell
+npm start
+```
+5. Open your web browser and visit http://localhost:3000 to access the locally running application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Now you have the React Redux Form Application up and running on your local machine. Feel free to explore the form, input validation, and state management implemented in this application. Happy coding!
